@@ -1,7 +1,83 @@
 .dnf-header {
   width: 100%;
-  height: 1000px;
-  box-sizing: border-box;
-  border: 2px solid greenyellow;
-  font-size:20px;
+  height: 50px;
+  padding: 0 10px;
+  position: relative;
+  background-color: #f58220;
 }
+
+.header-icon {
+  display: inline-block;
+  height: 100%;
+}
+
+.header-icon svg {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 30px;
+}
+
+.header-title {
+  display: inline-block;
+  vertical-align: top;
+  line-height: 50px;
+  padding-left: 30px;
+}
+
+.header-search {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.dnf-swipe {
+  width: 100%;
+  height: 200px;
+  background-color: red;
+}
+
+.dnf-swipe .mui-slider-group a {
+  width: 100%;
+  height: 200px;
+}
+
+.dnf-swipe .mui-slider-group div:nth-child(1) a {
+  background: url(../img/4.jpg);
+  background-repeat: no-repeat;
+}
+
+.dnf-swipe .mui-slider-group div:nth-child(2) a {
+  background: url(../img/1.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* cover和contain都是对于图片的等比例缩放, 区别在于宽高比不合适的情况下的处理cover是不能显示完全,contain会有空白的显示 */
+  /* background-size: contain; */
+}
+
+.dnf-swipe .mui-slider-group div:nth-child(3) a {
+  background: url(../img/2.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.dnf-swipe .mui-slider-group div:nth-child(4) a {
+  background: url(../img/3.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.dnf-swipe .mui-slider-group div:nth-child(5) a {
+  background: url(../img/4.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.dnf-swipe .mui-slider-group div:nth-child(6) a {
+  background: url(../img/1.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+
