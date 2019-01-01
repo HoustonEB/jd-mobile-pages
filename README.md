@@ -1,2 +1,2 @@
-### 一套基于gulp,zepto,mui构建的移动端的页面
+### 一套基于webpack,zepto,mui构建的移动端的页面
 
